@@ -20,7 +20,7 @@ ORDER BY last_name, first_name;
 
 -- Find all employees whose last name starts with 'E' — 7,330 rows.
 -- Update your queries for employees with 'e' in their last name to sort the results by their employee number. Make sure the employee numbers are in the correct order
-SELECT last_name
+SELECT *
 FROM employees
 WHERE last_name LIKE 'E%'
 ORDER BY emp_no;
