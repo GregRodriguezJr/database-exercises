@@ -10,5 +10,5 @@ SELECT * FROM albums WHERE genre = 'disco';
 DELETE FROM albums WHERE genre = 'disco';
 
 SELECT 'All albums by Eagles' AS 'Desc.';
-SELECT * FROM albums WHERE artist = 'Eagles';
-DELETE FROM albums WHERE artist = 'Eagles';
+SELECT * FROM albums WHERE artist = 'The Eagles';
+DELETE FROM albums WHERE artist = 'The Eagles';
